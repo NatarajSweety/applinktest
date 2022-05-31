@@ -6,4 +6,20 @@
     "sha256_cert_fingerprints":
     ["39:6B:3D:66:7A:B9:93:81:4E:57:3B:C3:D1:4B:80:47:5A:43:BC:A9:4F:4F:CF:01:E4:DB:BA:73:07:34:25:4B"]
   }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://johnvinodh.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.moonlit.appslinknative",
+    "sha256_cert_fingerprints":
+    ["39:6B:3D:66:7A:B9:93:81:4E:57:3B:C3:D1:4B:80:47:5A:43:BC:A9:4F:4F:CF:01:E4:DB:BA:73:07:34:25:4B"]
+  }
 }]
